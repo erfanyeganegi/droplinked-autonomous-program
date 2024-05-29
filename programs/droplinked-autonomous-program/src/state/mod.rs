@@ -1,6 +1,6 @@
 mod shop;
 
-pub use shop::*;
+pub(crate) use shop::*;
 
 pub trait IsState<T> {
     const PREFIX: &'static str;
